@@ -1,6 +1,6 @@
 function App() {
   return (
-    <h1 className="text-3xl text-blue-600/100 font-bold underline">
+    <h1 className="text-3xl underline decoration-red-500 font-bold">
       Hello world!
     </h1>
   );
