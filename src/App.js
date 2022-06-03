@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Routes from "./components/Routes";
+import AppRoutes from "./components/AppRoutes";
 const App = () => {
     let isGscDark =  localStorage.getItem("isGscDark") || "false";
     const [darkTheme, setDarkTheme] = useState(isGscDark === "true");
@@ -17,7 +17,7 @@ const App = () => {
                 darkTheme={darkTheme}
                 setThemeDark={setThemeDark}
             />
-            <Routes/>
+            <AppRoutes/>
             <Footer/>
         </div>
     </div>
