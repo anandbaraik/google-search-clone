@@ -1,11 +1,11 @@
 import React from 'react'
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import {Results} from "./Results";
 const AppRoutes = () => {
   return (
     <div className='p-4'>
         <Routes>
-            <Route exact path="/" element={<Results/>}>
+            <Route exact path="/" element={<Navigate to="/search" replace={true} />}>
             </Route>
             <Route exact path="/search" element={<Results/>}>
             </Route>
