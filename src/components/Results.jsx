@@ -46,8 +46,8 @@ export const Results = () => {
 			return (
 				<div className='flex flex-wrap justify-between space-y-6 sm:px-56 items-center'>
 					{
-						results?.map(({links, id, source, title}, index) => (
-							<div key={id} className='mt-5 md:w-2/5 w-full'>
+						results?.map(({links, source, title}, index) => (
+							<div key={index} className='mt-5 md:w-2/5 w-full'>
 								<a href={links?.[0].href} target="_blank" rel='noreferrer'
 									className='hover:underline'>
 									<p className='text-lg dark:text-blue-300 text-blue-700 break-words'>
