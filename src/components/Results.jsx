@@ -98,7 +98,7 @@ export const Results = () => {
 								className='sm:p-3 p-5'>
 								<img src={image?.src} alt={title ? title : ''} loading="lazy" className='rounded'/>
 								<p className='w-36 break-words text-sm mt-2'>
-									{(title.length > 30) ? `${title.substring(0, 30)}...` : title}
+									{(title?.length > 30) ? `${title.substring(0, 30)}...` : title}
 								</p>
 							</a>
 						))
