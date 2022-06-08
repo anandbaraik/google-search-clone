@@ -7,6 +7,8 @@ const AppRoutes = () => {
         <Routes>
             <Route exact path="/" element={<Navigate to="/search" replace={true} />}>
             </Route>
+            <Route exact path="/google-search-clone" element={<Navigate to="/search" replace={true} />}>
+            </Route>
             <Route exact path="/search" element={<Results/>}>
             </Route>
             <Route exact path="/news" element={<Results/>}>
