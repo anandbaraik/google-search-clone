@@ -3,7 +3,7 @@ import { useDebounce } from 'use-debounce';
 import { useResultContext } from '../contexts/ResultContextProvider';
 import {Links} from "../components/Links";
 export const Search = () => {
-  const [text, setText] = useState("javascript");
+  const [text, setText] = useState("React js");
   const {setSearchTerm} = useResultContext();
   const [debouncedValue] = useDebounce(text, 300);
 
