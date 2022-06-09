@@ -71,7 +71,7 @@ export const Results = () => {
 			return (
 				<div className='flex flex-wrap justify-center items-center'>
 					{
-						results.map((video, index) => (
+						results?.map((video, index) => (
 							<div key={index} className="p-2">
 								{
 									video?.additional_links?.[0].href &&
