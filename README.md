@@ -2,6 +2,10 @@
 
 Google Search clone.
 
+## Demo
+
+[google-search-clone](https://google-search-clone-anandbaraik.vercel.app)
+
 ## Tech Stack
 
 **Technology:** React.js, Tailwind css
